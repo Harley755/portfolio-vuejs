@@ -1,7 +1,7 @@
 
 <script lang="ts">
-import LeftSide from "./components/LeftSide.vue";
 import RigthSide from "./components/RigthSide.vue";
+import LeftSide from "./components/LeftSide.vue";
 export default {
   components: {
     LeftSide,

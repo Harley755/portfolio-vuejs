@@ -12,7 +12,7 @@ export default {
   <nav class="nav hidden lg:block" aria-label="In-page jump links">
     <ul class="mt-16 w-max">
       <li>
-        <a id="aboutMenu" :href="{ link }" class="group flex items-center py-3">
+        <a id="aboutMenu" href="" class="group flex items-center py-3">
           <span
             class="aboutChild nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"
           >
