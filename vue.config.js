@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/porfolio-vuejs/'
+    publicPath: '/portfolio-vuejs/'
 }
