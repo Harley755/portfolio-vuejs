@@ -10,10 +10,10 @@ import TwitterIcon from "../components/icons/TwitterIcon.vue";
     class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 md:min-h-screen">
     <div>
       <h1 class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
-        Brice GOUDALO
+        I'm Brice GOUDALO
       </h1>
       <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-        Software developer
+        Software Developer | Flutter Enthusiast
       </h2>
       <p class="mt-4 max-w-xs leading-normal">
         My specialties? Listening attentively, clarifying the problem, and

@@ -8,30 +8,32 @@
     </div>
     <div>
       <p class="mb-4">
-        An adaptable, detail-oriented software developer, I'm deeply
-        interested in building functional, scalable software that improves
-        quality of life. I currently work with
+        I'm an adaptable, detail-oriented software developer focused on building scalable, high-performance software
+        solutions that significantly improve user experiences. With a deep interest in development, I specialize in
+        working with technologies such as
         <span class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
-          Node.js [Adonis.js, Express.js, Nest.js], TypeScript, Python, and
-          PostgreSQL</span>, leveraging these technologies to create robust backend solutions.
+          Laravel, TypeScript, VueJS, PostgreSQL</span> and <span
+          class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">Flutter</span>. I strive to
+        develop functional systems that
+        improve
+        quality of life through efficient and innovative code.
+      </p>
+
+      <p class="mb-4">
+        I am also actively learning <span
+          class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">NestJS</span>, which has
+        given me a deeper understanding of TypeScript-based backend
+        development and how to build scalable, maintainable APIs with a modular architecture. This framework complements
+        my existing knowledge and is helping me improve the quality and efficiency of my backend solutions. </p>
+
+      <p class="mb-4">My professional experience also includes proficiency in
+        <span class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">Github</span>, with a
+        strong focus on efficient and collaborative development.
       </p>
       <p class="mb-4">
-        I'm currently finishing the
-        <span class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">ALX program in the
-          Backend specialty</span>
-        by developing
-        <span class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">AskVibe</span>, a
-        platform to streamline event management with real-time features.
-        My professional experience also includes proficiency in
-        <span class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">Laravel, React.js,
-          Docker and Github</span>, with a strong focus on efficient and collaborative development.
-      </p>
-      <p class="mb-4">
-        In my spare time, I like to listen to music, watch videos on YouTube
-        and, when I'm not in front of a screen, I like to play basketball or
-        ride my bike. I am continuously learning and striving to understand in
-        depth the tools and technologies I use, ensuring that I can deliver
-        high-quality, innovative solutions.
+        In my spare time, I enjoy listening to music, reading, and exploring new ways to optimize my development
+        process. I am deeply committed to continuous learning, always striving to deepen my understanding of the
+        technologies I use to deliver innovative solutions that meet both client and user needs.
       </p>
     </div>
   </section>
