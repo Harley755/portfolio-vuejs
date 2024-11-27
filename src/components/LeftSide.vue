@@ -93,6 +93,26 @@ onMounted(() => {
         </ul>
       </nav>
     </div>
+    <ul class="ml-1 mt-8 flex items-center" aria-label="Social media">
+      <li class="mr-5 text-xs">
+        <a class="block hover:text-slate-200" href="https://github.com/Harley755" target="_blank" rel="noreferrer"><span
+            class="sr-only">GitHub</span>
+          <GithubIcon />
+        </a>
+      </li>
+      <li class="mr-5 text-xs">
+        <a class="block hover:text-slate-200" href="https://twitter.com/bg_dev2" target="_blank" rel="noreferrer"><span
+            class="sr-only">Twitter</span>
+          <TwitterIcon />
+        </a>
+      </li>
+      <li class="mr-5 text-xs">
+        <a class="block hover:text-slate-200" href="https://www.linkedin.com/in/brice-goudalo-642b72232/"
+          target="_blank" rel="noreferrer"><span class="sr-only">LinkedIn</span>
+          <LinkedinIcon />
+        </a>
+      </li>
+    </ul>
   </header>
 </template>
 
