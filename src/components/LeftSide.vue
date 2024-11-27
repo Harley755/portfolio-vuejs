@@ -1,5 +1,8 @@
 <script lang="ts" setup>
 import { ref, onMounted, onUnmounted } from "vue";
+import GithubIcon from "./icons/GithubIcon.vue";
+import TwitterIcon from "./icons/TwitterIcon.vue";
+import LinkedinIcon from "./icons/LinkedinIcon.vue";
 
 const activeSection = ref("about");
 const sections = ["about", "experience", "project", "certification"];
