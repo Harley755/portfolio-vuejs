@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/portfolio-vuejs/'
-}
+  publicPath: process.env.NODE_ENV === "production" ? "/REPO_NAME/" : "/",
+};
