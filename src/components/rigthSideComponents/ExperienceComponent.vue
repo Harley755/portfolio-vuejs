@@ -24,14 +24,14 @@ export default {
           companyWebsite: 'https://seniordev-group.com/',
         },
         {
-          date: 'March 2023 - June 2023',
-          role: 'Web Developer',
-          company: 'SENIORDEV',
+          date: 'April 2023 - June 2023',
+          role: 'Flutter Developer',
+          company: 'JesMar',
           location: 'Cotonou, Benin',
           description:
-            'During this placement, we worked on creating a project management web application using ReactTS on the front-end and Laravel Sanctum on the backend. I also improved my analysis method using UML.',
-          technologies: ['ReactJS', 'Laravel Sanctum', 'TypeScript', 'JWT', 'REST API', 'PostgreSQL', 'UML'],
-          companyWebsite: 'https://seniordev-group.com/',
+            'During this placement, we worked on creating a project responds to a crucial need by enabling individuals to store and access their reliable medical information at all times, facilitating rapid and effective care in the event of an emergency. It considerably improves the response of healthcare professionals, while guaranteeing data confidentiality and security. This solution helps reduce the loss of life caused by the inaccessibility of essential medical information.',
+          technologies: ['Flutter', 'Firebase', 'UML'],
+          companyWebsite: 'https://www.facebook.com/p/Jesmar-100076165212205/',
         },
       ],
     };
