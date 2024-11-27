@@ -4,24 +4,14 @@ export default {
     return {
       experiences: [
         {
-          date: 'November 2023 - Present',
-          role: 'Back-end Developer',
-          company: 'ADPME',
+          date: 'January 2024 - September 2024',
+          role: 'Java/Spring Developer',
+          company: 'Ministère de l\'Economie et des Fiances',
           location: 'Cotonou, Benin',
           description:
-            'During my internship, I worked on the development of the ADPME website (Front-Office and Back-Office), mainly on the back-end using Node and Express JS with a code architecture inspired by the default NestJS applications. I also improved my skills in using Prisma ORM and DevOps tools like Docker and Docker Compose.',
-          technologies: ['NodeJS', 'ExpressJS', 'TypeScript', 'Prisma', 'Docker', 'Docker Compose', 'PostgreSQL', 'PM2'],
-          companyWebsite: 'https://adpme.bj/',
-        },
-        {
-          date: 'March 2023 - June 2023',
-          role: 'Web Developer',
-          company: 'SENIORDEV',
-          location: 'Cotonou, Benin',
-          description:
-            'During this placement, we worked on creating a project management web application using ReactTS on the front-end and Laravel Sanctum on the backend. I also improved my analysis method using UML.',
-          technologies: ['ReactJS', 'Laravel Sanctum', 'TypeScript', 'JWT', 'REST API', 'PostgreSQL', 'UML'],
-          companyWebsite: 'https://seniordev-group.com/',
+            'During my internship, I worked on the development of a platform dedicated to Benin\'s armed forces officers, designed to centralize and facilitate access to a full range of essential administrative services.This platform offers a secure interface where officers can carry out various operations linked to their military careers, in complete autonomy and confidentiality.',
+          technologies: ['Spring MVC', 'jquery', 'PostgreSQL', 'UML'],
+          companyWebsite: 'https://finances.bj/',
         },
         {
           date: 'April 2023 - June 2023',
@@ -32,6 +22,16 @@ export default {
             'During this placement, we worked on creating a project responds to a crucial need by enabling individuals to store and access their reliable medical information at all times, facilitating rapid and effective care in the event of an emergency. It considerably improves the response of healthcare professionals, while guaranteeing data confidentiality and security. This solution helps reduce the loss of life caused by the inaccessibility of essential medical information.',
           technologies: ['Flutter', 'Firebase', 'UML'],
           companyWebsite: 'https://www.facebook.com/p/Jesmar-100076165212205/',
+        },
+        {
+          date: 'July 2022 - September 2022',
+          role: 'Web Developer',
+          company: 'M@-INFO',
+          location: 'Cotonou, Benin',
+          description:
+            'During this internship, we worked on the creation of an ERP (Enterprise resource planning) system; a type of software that companies use to manage their day-to-day activities such as accounting, purchasing, project management, risk management and compliance.',
+          technologies: ['Laravel', 'VueJS', "MongoDB", 'UML'],
+          companyWebsite: 'https://www.mainfo.info/',
         },
       ],
     };
