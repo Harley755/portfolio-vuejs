@@ -1,3 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
+
+
+.active {
+  color: #ffffff;
+  font-weight: bold;
+}
