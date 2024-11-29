@@ -6,7 +6,7 @@ import ProjectComponent from './rigthSideComponents/ProjectComponent.vue';
 </script>
 
 <template>
-  <main id="content" class="pt-24 lg:w-1/2 lg:py-24">
+  <main id="content" class="pt-24 lg:w-[65%] lg:py-24">
     <AboutComponent />
     <ExperienceComponent />
     <ProjectComponent />
