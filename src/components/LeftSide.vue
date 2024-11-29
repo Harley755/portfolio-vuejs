@@ -81,7 +81,7 @@ onMounted(() => {
       </h2>
       <p class="mt-4 max-w-xs leading-normal">
         {{ animatedText }}
-        <span v-if="isTyping" class="cursor">|</span>
+        <span v-if="isTyping" class="cursor">_</span>
       </p>
       <nav class="nav hidden lg:block" aria-label="In-page jump links">
         <ul class="mt-16 w-max">
@@ -166,6 +166,7 @@ onMounted(() => {
 
 /* Style du curseur clignotant */
 .cursor {
+  font-size: 30px;
   display: inline-block;
   margin-left: 2px;
   /* Espacement entre le texte et le curseur */
