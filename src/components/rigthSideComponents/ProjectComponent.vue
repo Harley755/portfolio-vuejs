@@ -13,6 +13,26 @@ export default {
           // technologies: ['Flutter', 'Firebase'],
           companyWebsite: '',
         },
+        {
+          image: '',
+          title: 'Medical assistance mobile application',
+          company: 'ADPME',
+          location: 'Cotonou, Benin',
+          description:
+            'This application is a solution-based approach, enabling healthcare professionals to provide better and faster patient care.',
+          // technologies: ['Flutter', 'Firebase'],
+          companyWebsite: '',
+        },
+        {
+          image: '',
+          title: 'Medical assistance mobile application',
+          company: 'ADPME',
+          location: 'Cotonou, Benin',
+          description:
+            'This application is a solution-based approach, enabling healthcare professionals to provide better and faster patient care.',
+          // technologies: ['Flutter', 'Firebase'],
+          companyWebsite: '',
+        },
       ],
     };
   },
