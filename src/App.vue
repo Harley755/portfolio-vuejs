@@ -46,10 +46,10 @@ export default {
 <template>
   <div>
     <div
-      class="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 min-h-screen min-w-screen mx-auto py-12 font-sans md:py-20 lg:px-24 lg:py-0 md:flex md:justify-end md:relative">
+      class="bg-teal-950 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 min-h-screen min-w-screen mx-auto py-12 font-sans md:py-20 lg:px-24 lg:py-0 md:flex md:justify-end md:relative">
       <!-- Gradient dynamique -->
       <div class="pointer-events-none fixed inset-0 z-30 transition-all duration-300 lg:absolute" :style="{
-        background: `radial-gradient(600px at ${gradientPosition.x}px ${gradientPosition.y}px, rgba(29, 78, 216, 0.15), transparent 80%)`
+        background: `radial-gradient(600px at ${gradientPosition.x}px ${gradientPosition.y}px, rgba(45, 212, 191, 0.15), transparent 80%)`
       }"></div>
       <LeftSide />
       <RigthSide />
