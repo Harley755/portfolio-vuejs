@@ -40,7 +40,7 @@ onMounted(() => {
 });
 
 
-const specialty = "My specialties? Listening attentively, clarifying the problem, and solving it.";
+const specialty = "Turning challenges into solutions with sharp focus, active listening, and effective problem-solving.";
 const animatedText = ref("");
 const currentIndex = ref(0);
 const isTyping = ref(true);
