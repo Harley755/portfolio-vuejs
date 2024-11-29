@@ -4,6 +4,7 @@ import GithubIcon from "./icons/GithubIcon.vue";
 import TwitterIcon from "./icons/TwitterIcon.vue";
 import LinkedinIcon from "./icons/LinkedinIcon.vue";
 import GmailIcon from "./icons/GmailIcon.vue";
+import WhatsAppIcon from "./icons/WhatsAppIcon.vue";
 
 const activeSection = ref("about");
 const sections = ["about", "experience", "project", "certification"];
@@ -126,6 +127,12 @@ onMounted(() => {
       </nav>
     </div>
     <ul class="ml-1 mt-8 flex items-center" aria-label="Social media">
+      <li class="mr-5 text-xs">
+        <a class="block hover:text-slate-200" href=" https://wa.me/22953040800" target="_blank" rel="noreferrer"><span
+            class="sr-only">WhatsApp</span>
+          <WhatsAppIcon />
+        </a>
+      </li>
       <li class="mr-5 text-xs">
         <a class="block hover:text-slate-200" href="https://github.com/Harley755" target="_blank" rel="noreferrer"><span
             class="sr-only">GitHub</span>
