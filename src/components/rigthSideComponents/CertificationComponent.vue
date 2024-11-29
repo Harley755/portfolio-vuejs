@@ -4,7 +4,7 @@ export default {
     return {
       certifications: [
         {
-          image: '',
+          image: '/css-certificate.jpg',
           title: 'CSS-basics-to-advanced',
           link: 'https://www.udemy.com/certificate/UC-34488143-2993-4a67-8f85-006bc61fac52/',
         },
@@ -52,7 +52,7 @@ export default {
             <div>
               <img alt="" data-nimg="1" loading="lazy" width="200" height="48" decoding="async"
                 class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-                style="color:transparent" src="../../../public/css-certificate.jpg">
+                style="color:transparent" :src="certification.image">
             </div>
           </div>
         </li>

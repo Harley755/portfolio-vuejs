@@ -79,7 +79,7 @@ export default {
             <div>
               <img alt="" data-nimg="1" loading="lazy" width="200" height="48" decoding="async"
                 class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-                style="color:transparent" src="../../../public/healthcare.png">
+                style="color:transparent" src="/healthcare.png">
             </div>
           </div>
         </li>

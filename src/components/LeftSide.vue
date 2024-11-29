@@ -3,6 +3,7 @@ import { ref, onMounted, onUnmounted } from "vue";
 import GithubIcon from "./icons/GithubIcon.vue";
 import TwitterIcon from "./icons/TwitterIcon.vue";
 import LinkedinIcon from "./icons/LinkedinIcon.vue";
+import GmailIcon from "./icons/GmailIcon.vue";
 
 const activeSection = ref("about");
 const sections = ["about", "experience", "project", "certification"];
@@ -141,6 +142,12 @@ onMounted(() => {
         <a class="block hover:text-slate-200" href="https://www.linkedin.com/in/brice-goudalo-642b72232/"
           target="_blank" rel="noreferrer"><span class="sr-only">LinkedIn</span>
           <LinkedinIcon />
+        </a>
+      </li>
+      <li class="mr-5 text-xs">
+        <a class="block hover:text-slate-200" href="mailto:bricegoudalo@gmail.com" target="_blank"
+          rel="noreferrer"><span class="sr-only">Gmail</span>
+          <GmailIcon />
         </a>
       </li>
     </ul>
