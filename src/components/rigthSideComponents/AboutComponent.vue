@@ -6,7 +6,7 @@
         About
       </h2>
     </div>
-    <div>
+    <div class="text-justify">
       <p class="mb-4">
         I'm an adaptable, detail-oriented software developer focused on building scalable, high-performance software
         solutions that significantly improve user experiences. With a deep interest in development, I specialize in

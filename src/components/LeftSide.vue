@@ -39,6 +39,33 @@ onMounted(() => {
   });
 });
 
+
+const specialty = "My specialties? Listening attentively, clarifying the problem, and solving it.";
+const animatedText = ref("");
+const currentIndex = ref(0);
+const isTyping = ref(true);
+
+const typeLetter = () => {
+  if (currentIndex.value < specialty.length) {
+    // Ajoute la lettre actuelle au texte animé
+    animatedText.value += specialty[currentIndex.value];
+    currentIndex.value++;
+
+    // Appelle cette méthode à nouveau après un délai
+    setTimeout(typeLetter, 50); // Ajustez le délai pour la vitesse
+  }
+  else {
+    // Texte terminé, désactive le curseur
+    isTyping.value = false;
+  }
+};
+
+// Démarre l'animation lorsque le composant est monté
+onMounted(() => {
+  typeLetter();
+});
+
+
 </script>
 
 
@@ -53,7 +80,8 @@ onMounted(() => {
         Software developer | Flutter enthusiast
       </h2>
       <p class="mt-4 max-w-xs leading-normal">
-        My specialties? Listening attentively, clarifying the problem, and solving it.
+        {{ animatedText }}
+        <span v-if="isTyping" class="cursor">|</span>
       </p>
       <nav class="nav hidden lg:block" aria-label="In-page jump links">
         <ul class="mt-16 w-max">
@@ -134,5 +162,24 @@ onMounted(() => {
 
 .active .nav-text {
   color: #e2e8f0;
+}
+
+/* Style du curseur clignotant */
+.cursor {
+  display: inline-block;
+  margin-left: 2px;
+  /* Espacement entre le texte et le curseur */
+  width: 1ch;
+  /* Largeur du curseur */
+  animation: blink 0.6s step-end infinite;
+  color: #00ff00;
+  /* Couleur du curseur */
+}
+
+/* Animation de clignotement */
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }
 </style>
