@@ -6,7 +6,7 @@ export default {
         {
           date: 'January 2024 - September 2024',
           role: 'Java/Spring Developer',
-          company: 'Ministère de l\'Economie et des Fiances',
+          company: 'Ministère de l\'Economie et des Finances',
           location: 'Cotonou, Benin',
           description:
             'During my internship, I worked on the development of a platform dedicated to Benin\'s armed forces officers, designed to centralize and facilitate access to a full range of essential administrative services.This platform offers a secure interface where officers can carry out various operations linked to their military careers, in complete autonomy and confidentiality.',
