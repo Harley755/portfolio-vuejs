@@ -67,4 +67,6 @@ export default {
       </ol>
     </div>
   </section>
+
+  <footer class="max-w-md pb-16 text-sm text-slate-500 sm:pb-0"><p>Loosely coded in <a href="https://www.jetbrains.com/fr-fr/idea/" class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank" rel="noreferrer">IntelliJ Idea</a> by yours truly. Built with <a href="https://nextjs.org/" class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank" rel="noreferrer">Next.js</a> and <a href="https://tailwindcss.com/" class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank" rel="noreferrer">Tailwind CSS</a>, deployed with <a href="https://vercel.com/" class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank" rel="noreferrer">Vercel</a>. All text is set in the <a href="https://rsms.me/inter/" class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" target="_blank" rel="noreferrer">Inter</a> typeface.</p></footer>
 </template>
