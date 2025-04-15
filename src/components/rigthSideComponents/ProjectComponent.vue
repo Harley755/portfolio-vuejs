@@ -4,14 +4,101 @@ export default {
     return {
       projects: [
         {
-          image: '',
+          image: '/microfinance.png',
+          title: 'Microfinance Web Platform (In progress)',
+          company: 'APES-BENIN',
+          location: 'Cotonou, Benin',
+          description:
+            'This private application centralizes and automates operations related to customer, cash register, account and credit management.',
+          technologies: ['Laravel', 'MySql'],
+          companyWebsite: '#',
+        },
+        {
+          image: '/gkdy.png',
+          title: 'GKDY-DSF',
+          company: 'DCSCA',
+          location: 'Cotonou, Benin',
+          description:
+            'This platform enables security forces officers to register online, access their files and benefit from dematerialized administrative services, all managed by the DCSCA.',
+          technologies: ['Java Spring Boot MVC', 'jQuery', 'MyBatis', 'PostgreSQL', 'JasperSoft'],
+          companyWebsite: 'https://www.gkdydsf.bj/home.htm',
+        },
+        {
+          image: '/iclfd.png',
+          title: 'ICLFD',
+          company: 'ICLFD',
+          location: 'Paris, France',
+          description:
+            'ICLFD is an online school offering complementary French schooling from CP to Baccalauréat. It is aimed at French or French-speaking students, including expatriates, wishing to obtain a double diploma by following the French national education curriculum.',
+          technologies: ['Wordpress'],
+          companyWebsite: 'https://www.iclfd.org',
+        },
+        {
+          image: '/makena.png',
+          title: 'Makena Conciergerie',
+          company: 'Makena Conciergerie',
+          location: 'Paris, France',
+          description:
+            'Makena Conciergerie specializes in short-term rental management in Paris and the Île-de-France region, particularly in the Hauts-de-Seine (92), Seine-Saint-Denis (93), Val-de-Marne (94) and Seine-et-Marne (77) departments.',
+          technologies: ['Wordpress'],
+          companyWebsite: 'https://makena-conciergerie.com/',
+        },
+        {
+          image: '/quality.png',
+          title: 'Quality-BS',
+          company: 'Quality-BS',
+          location: 'courbevoie, France',
+          description: "Quality BS is a higher education institution located in Courbevoie, France. It is also known as Universités et Collèges de l'Excellence. The school stands out for its commitment to academic excellence and the personal development of its students.",
+          technologies: ['Wordpress'],
+          companyWebsite: 'https://quality-bs.com/',
+        },
+        {
+          image: '/isao.png',
+          title: 'ISAO-BENIN',
+          company: 'ISAO',
+          location: 'Cotonou, Bénin',
+          description: "ISAO offers high-quality training in engineering, science and management, in line with international standards and the LMD (Licence-Master-Doctorat) system. The institute focuses on innovation, new technologies and sustainable development, preparing students to meet contemporary challenges.",
+          technologies: ['Wordpress'],
+          companyWebsite: 'https://isao-benin.org/',
+        },
+        {
+          image: '/hrdfo.png',
+          title: 'HRDFO',
+          company: 'HRDFO',
+          location: 'Paris, France',
+          description: "HRDFO is an NGO fighting poverty and inequality, with a particular focus on empowering women and girls. Its actions include emergency humanitarian aid, food security, access to drinking water, education, and support for communities faced with climate change.",
+          technologies: ['Wordpress'],
+          companyWebsite: 'https://hrdfo.org/',
+        },
+        {
+          image: '/obp.png',
+          title: 'AGRI-OBP',
+          company: '',
+          location: 'Cotonou, Benin',
+          description:
+            'Agri-OBP is an innovative mobile application that facilitates online access and subscription to a wide range of agricultural estates, food products, plots and rental management services. It offers a user-friendly, secure interface enabling customers to interact directly with promoters and carry out transactions in complete confidence. Agri-OBP also showcases local, sustainable agriculture by promoting products derived from these responsible practices.',
+          technologies: ['Laravel', 'MySql', 'Flutter'],
+          companyWebsite: 'https://github.com/Harley755/medical_projet_licence',
+        },
+        {
+          image: '/medical.jpg',
           title: 'Medical assistance mobile application',
-          company: 'ADPME',
+          company: '',
           location: 'Cotonou, Benin',
           description:
             'This application is a solution-based approach, enabling healthcare professionals to provide better and faster patient care.',
-          // technologies: ['Flutter', 'Firebase'],
+          technologies: ['Flutter', 'Firebase'],
           companyWebsite: 'https://github.com/Harley755/medical_projet_licence',
+        },
+        {
+          image: '/note.png',
+          title: 'Note management application',
+          company: '',
+          location: 'Cotonou, Benin',
+          description:
+            'A simple, effective application for managing your notes on a daily basis. Easily create, organize and consult your notes, whether for ideas, tasks or appointments. An intuitive interface makes note-taking quick and easy, with features like categorization, instant search and automatic saving. The perfect tool for staying organized, anywhere, anytime.',
+          technologies: ['Flutter', 'Firebase'],
+          companyWebsite: 'https://github.com/Harley755/flutter-mynotes',
         },
       ],
     };
@@ -54,16 +141,40 @@ export default {
               </h3>
               <p class="mt-2 text-sm leading-normal text-slate-400 group-hover:text-white hover:text-white">{{
                 project.description }}</p>
-
+              <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+                <li v-for="(tech, i) in project.technologies" :key="i" class="mr-1.5 mt-2">
+                  <div
+                    class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                    {{ tech }}
+                  </div>
+                </li>
+              </ul>
             </div>
             <div>
               <img alt="" data-nimg="1" loading="lazy" width="200" height="48" decoding="async"
                 class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-                style="color:transparent" src="/healthcare.png">
+                style="color:transparent" :src="project.image">
             </div>
           </div>
         </li>
 
+
+        <div class="mt-12"><a class="inline-flex items-center leading-tight text-slate-200 font-semibold group"
+            aria-label="View Full Resume" target="_blank" href="https://github.com/Harley755/"><span><span
+                class="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
+                View Full </span><span class="whitespace-nowrap"><span
+                  class="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
+                  Github </span>
+                <!-- <ResumeArrowIcon /> -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                  class="ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none"
+                  aria-hidden="true">
+                  <path fill-rule="evenodd"
+                    d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
+                    clip-rule="evenodd"></path>
+                </svg>
+              </span>
+            </span></a></div>
       </ol>
     </div>
   </section>

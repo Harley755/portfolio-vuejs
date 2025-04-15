@@ -16,30 +16,31 @@ const setActive = (section: string) => {
 onMounted(() => {
   const observer = new IntersectionObserver(
     (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          setActive(entry.target.id); // Définir la section visible comme active
-        }
-      });
+      const visibleEntries = entries
+        .filter((entry) => entry.isIntersecting)
+        .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+
+      if (visibleEntries.length > 0) {
+        setActive(visibleEntries[0].target.id);
+      }
     },
     {
-      root: null, // Observer par rapport au viewport
+      root: null,
       rootMargin: "0px",
-      threshold: [0.6, 1.0], // Au moins 50% de la section doit être visible
+      threshold: [0.1, 1.0],
     }
   );
 
-  // Observer toutes les sections
   sections.forEach((id) => {
     const section = document.getElementById(id);
     if (section) observer.observe(section);
   });
 
-  // Nettoyer l'observateur
   onUnmounted(() => {
     observer.disconnect();
   });
 });
+
 
 
 const specialty = "Turning challenges into solutions with sharp focus, active listening, and effective problem-solving.";
@@ -146,8 +147,8 @@ onMounted(() => {
         </a>
       </li>
       <li class="mr-5 text-xs">
-        <a class="block hover:text-slate-200" href="https://www.linkedin.com/in/bricegoudalo/"
-          target="_blank" rel="noreferrer"><span class="sr-only">LinkedIn</span>
+        <a class="block hover:text-slate-200" href="https://www.linkedin.com/in/bricegoudalo/" target="_blank"
+          rel="noreferrer"><span class="sr-only">LinkedIn</span>
           <LinkedinIcon />
         </a>
       </li>
