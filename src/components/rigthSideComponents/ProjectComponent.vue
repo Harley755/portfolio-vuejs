@@ -5,11 +5,11 @@ export default {
       projects: [
         {
           image: '/microfinance.png',
-          title: 'Microfinance Web Platform (In progress)',
+          title: 'APES-MICROFIANCE',
           company: 'APES-BENIN',
           location: 'Cotonou, Benin',
           description:
-            'This private application centralizes and automates operations related to customer, cash register, account and credit management.',
+            'This complete private web platform developed with Laravel for managing financial structures and customer accounts, integrating cash management and automated loan tracking with amortization.',
           technologies: ['Laravel', 'MySql'],
           companyWebsite: '#',
         },
