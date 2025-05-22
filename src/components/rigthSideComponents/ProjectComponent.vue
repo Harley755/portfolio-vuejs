@@ -5,7 +5,7 @@ export default {
       projects: [
         {
           image: '/microfinance.png',
-          title: 'APES-MICROFIANCE',
+          title: 'APES-MICROFINANCE',
           company: 'APES-BENIN',
           location: 'Cotonou, Benin',
           description:
