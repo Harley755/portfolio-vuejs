@@ -11,7 +11,7 @@ export default {
           description:
             'This complete private web platform developed with Laravel for managing financial structures and customer accounts, integrating cash management and automated loan tracking with amortization.',
           technologies: ['Laravel', 'MySql'],
-          companyWebsite: '#',
+          companyWebsite: 'http://ong.apes.bj/',
         },
         {
           image: '/gkdy.png',
