@@ -81,7 +81,7 @@ export default {
           companyWebsite: 'https://github.com/Harley755/medical_projet_licence',
         },
         {
-          image: '/medical.jpg',
+          image: '/healthcare.avif',
           title: 'Medical assistance mobile application',
           company: '',
           location: 'Cotonou, Benin',
