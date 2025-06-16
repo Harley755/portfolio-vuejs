@@ -30,7 +30,7 @@ export default {
           location: 'Paris, France',
           description:
             'ICLFD is an online school offering complementary French schooling from CP to Baccalauréat. It is aimed at French or French-speaking students, including expatriates, wishing to obtain a double diploma by following the French national education curriculum.',
-          technologies: ['Wordpress'],
+          technologies: ['Wordpress', 'MySql'],
           companyWebsite: 'https://www.iclfd.org',
         },
         {
@@ -40,7 +40,7 @@ export default {
           location: 'Paris, France',
           description:
             'Makena Conciergerie specializes in short-term rental management in Paris and the Île-de-France region, particularly in the Hauts-de-Seine (92), Seine-Saint-Denis (93), Val-de-Marne (94) and Seine-et-Marne (77) departments.',
-          technologies: ['Wordpress'],
+          technologies: ['Wordpress', 'MySql'],
           companyWebsite: 'https://makena-conciergerie.com/',
         },
         {
@@ -49,7 +49,7 @@ export default {
           company: 'Quality-BS',
           location: 'courbevoie, France',
           description: "Quality BS is a higher education institution located in Courbevoie, France. It is also known as Universités et Collèges de l'Excellence. The school stands out for its commitment to academic excellence and the personal development of its students.",
-          technologies: ['Wordpress'],
+          technologies: ['Wordpress', 'MySql'],
           companyWebsite: 'https://quality-bs.com/',
         },
         {
@@ -58,7 +58,7 @@ export default {
           company: 'ISAO',
           location: 'Cotonou, Bénin',
           description: "ISAO offers high-quality training in engineering, science and management, in line with international standards and the LMD (Licence-Master-Doctorat) system. The institute focuses on innovation, new technologies and sustainable development, preparing students to meet contemporary challenges.",
-          technologies: ['Wordpress'],
+          technologies: ['Wordpress', 'MySql'],
           companyWebsite: 'https://isao-benin.org/',
         },
         {
@@ -67,7 +67,7 @@ export default {
           company: 'HRDFO',
           location: 'Paris, France',
           description: "HRDFO is an NGO fighting poverty and inequality, with a particular focus on empowering women and girls. Its actions include emergency humanitarian aid, food security, access to drinking water, education, and support for communities faced with climate change.",
-          technologies: ['Wordpress'],
+          technologies: ['Wordpress', 'MySql'],
           companyWebsite: 'https://hrdfo.org/',
         },
         {
