@@ -140,12 +140,12 @@ onMounted(() => {
           <GithubIcon />
         </a>
       </li>
-      <li class="mr-5 text-xs">
+      <!-- <li class="mr-5 text-xs">
         <a class="block hover:text-slate-200" href="https://twitter.com/bg_dev2" target="_blank" rel="noreferrer"><span
             class="sr-only">Twitter</span>
           <TwitterIcon />
         </a>
-      </li>
+      </li>  -->
       <li class="mr-5 text-xs">
         <a class="block hover:text-slate-200" href="https://www.linkedin.com/in/bricegoudalo/" target="_blank"
           rel="noreferrer"><span class="sr-only">LinkedIn</span>
