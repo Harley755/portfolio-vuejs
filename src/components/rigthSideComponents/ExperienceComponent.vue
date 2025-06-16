@@ -10,7 +10,7 @@ export default {
           location: 'Cotonou, Benin',
           description: "As a freelance web developer, I design tailor-made solutions ranging from modern, high-performance websites to complex business platforms, adapted to the specific needs of companies, organizations and institutions. Whether I'm developing a secure financial management system or a showcase site optimized for visibility, I'm committed to delivering reliable, scalable applications focused on the user experience.",
           technologies: [],
-          companyWebsite: '',
+          companyWebsite: '#',
         },
         {
           date: 'January 2024 - September 2024',
