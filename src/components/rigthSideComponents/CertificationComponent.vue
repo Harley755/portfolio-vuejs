@@ -4,14 +4,14 @@ export default {
     return {
       certifications: [
         {
-          image: '/css-certificate.jpg',
-          title: 'CSS-basics-to-advanced',
-          link: 'https://www.udemy.com/certificate/UC-34488143-2993-4a67-8f85-006bc61fac52/',
-        },
-        {
           image: '/3A_img.png',
           title: 'Ateliers Approches Agiles',
           link: '/3A.pdf',
+        },
+        {
+          image: '/css-certificate.jpg',
+          title: 'CSS-basics-to-advanced',
+          link: 'https://www.udemy.com/certificate/UC-34488143-2993-4a67-8f85-006bc61fac52/',
         },
       ],
     };
