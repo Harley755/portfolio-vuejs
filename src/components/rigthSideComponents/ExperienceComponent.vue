@@ -102,7 +102,7 @@ export default {
         </li>
       </ol>
       <div class="mt-12"><a class="inline-flex items-center leading-tight text-slate-200 font-semibold group"
-          aria-label="View Full Resume" target="_blank" href="/CV_GOUDALO_Brice.pdf"><span><span
+          aria-label="View Full Resume" target="_blank" href="/CV_Brice_GOUDALO.pdf"><span><span
               class="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
               View Full </span><span class="whitespace-nowrap"><span
                 class="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
