@@ -4,12 +4,30 @@ export default {
     return {
       experiences: [
         {
-          date: 'September 2024 - Today',
+          date: 'November 2025 - Today',
+          role: 'Promoter & Developer',
+          company: 'Cyber Incub',
+          location: 'Calavi, Benin',
+          description: "Promoter of SAUDITER.BJ, a cybersecurity self-audit SaaS platform (GRC) developed with React.js and Express.js, designed to assess digital maturity, identify vulnerabilities, and generate action plans compliant with standards (ASIN-Benin, Digital Code (Law 2017-20), APDP, ISO 27001, PCI DSS, GDPR), developed as part of the Cyber Incub program in collaboration with ASIN, ADPME, and LuxDev.",
+          technologies: ['React.js', 'Express.js'],
+          companyWebsite: 'https://cyberincub.bj/',
+        },
+        {
+          date: 'July 2025 - October 2025',
+          role: 'Laravel & Spring Boot Developer',
+          company: 'Digital Afrique',
+          location: 'Cotonou, Benin',
+          description: 'Development of a search microservice with Kafka and Elasticsearch. Development of a property management application.',
+          technologies: ['Laravel', 'Spring Boot', 'Kafka', 'Elasticsearch'],
+          companyWebsite: 'https://digitalafrique.org/',
+        },
+        {
+          date: 'September 2024 - June 2025',
           role: 'Developer',
           company: 'Freelance',
           location: 'Cotonou, Benin',
           description: "As a freelance web developer, I design tailor-made solutions ranging from modern, high-performance websites to complex business platforms, adapted to the specific needs of companies, organizations and institutions. Whether I'm developing a secure financial management system or a showcase site optimized for visibility, I'm committed to delivering reliable, scalable applications focused on the user experience.",
-          technologies: [],
+          technologies: ['Laravel', 'VueJs', 'Flutter'],
           companyWebsite: '#',
         },
         {
